@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+   
+   <record id="unsikaabsen.matkul_action" model="ir.actions.act_window">
+      <field name="name">Mata Kuliah</field>
+      <field name="res_model">unsikaabsen.matkul</field>
+      <field name="view_mode">tree,form</field>
+   </record>
+
+   <!-- unsikaabsen.matkul tree view -->
+   <record id="unsikaabsen.matkul_view_tree" model="ir.ui.view">
+      <field name="name">unsikaabsen.matkul.view.tree</field>
+      <field name="model">unsikaabsen.matkul</field>
+      <field name="arch" type="xml">
+         <tree>
+            <field name="name"/>
+            <field name="dosen_id"/>
+            <field name="description"/>
+         </tree>
+      </field>
+   </record>
+
+   <record id="unsikaabsen.matkul_view_form" model="ir.ui.view">
+      <field name="name">unsikaabsen.matkul.view.form</field>
+      <field name="model">unsikaabsen.matkul</field>
+      <field name="arch" type="xml">
+         <form string="">
+            <sheet>
+               <group>
+                  <field name="name"/>
+                  <field name="dosen_id"/>
+               </group>
+               <notebook>
+                  <page name="desription" string="Deskripsi Mata Kuliah">
+                     <field name="description"/>
+                  </page>
+               </notebook>
+            </sheet>
+         </form>
+      </field>
+   </record>
+   
+   <menuitem
+      id="unsikaabsen_menu_root"
+      name="E-Learning"
+      sequence="20"/>
+
+   <menuitem 
+      id="matkul_menu_root"
+      name="Mata Kuliah"
+      sequence="20"
+      parent="unsikaabsen_menu_root"
+      action="unsikaabsen.matkul_action"/>
+
+</odoo>

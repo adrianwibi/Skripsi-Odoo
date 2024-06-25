@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <!-- Data Statis untuk Mata Kuliah -->
+
+    <record id="matkul_algoritma" model="unsikaabsen.matkul">
+        <field name="name">Algoritma dan Struktur Data</field>
+        <field name="description">Pembelajaran tentang algoritma dan struktur data dasar yang digunakan dalam pemrograman.</field>
+    </record>
+
+    <record id="matkul_bahasa_pemrograman" model="unsikaabsen.matkul">
+        <field name="name">Pemrograman Berbasis Objek</field>
+        <field name="description">Dasar-dasar pemrograman berbasis objek menggunakan bahasa pemrograman modern.</field>
+    </record>
+
+    <record id="matkul_jaringan_komputer" model="unsikaabsen.matkul">
+        <field name="name">Jaringan Komputer</field>
+        <field name="description">Pengantar tentang konsep dasar jaringan komputer dan protokol komunikasi.</field>
+    </record>
+
+    <record id="matkul_basis_data" model="unsikaabsen.matkul">
+        <field name="name">Sistem Basis Data</field>
+        <field name="description">Fundamental tentang basis data, SQL, dan manajemen basis data relasional.</field>
+    </record>
+
+    <record id="matkul_sistem_operasi" model="unsikaabsen.matkul">
+        <field name="name">Sistem Operasi</field>
+        <field name="description">Pembelajaran tentang konsep dasar sistem operasi dan manajemen sumber daya komputer.</field>
+    </record>
+
+   <record id="matkul_pengantar_komputer" model="unsikaabsen.matkul">
+      <field name="name">Pengantar Ilmu Komputer</field>
+      <field name="description">Pengenalan dasar-dasar ilmu komputer, sejarah, dan perkembangannya.</field>
+</record>
+
+<record id="matkul_pengembangan_web" model="unsikaabsen.matkul">
+      <field name="name">Pengembangan Aplikasi Web</field>
+      <field name="description">Dasar-dasar pengembangan aplikasi web termasuk HTML, CSS, dan JavaScript.</field>
+</record>
+
+<record id="matkul_pemrograman_mobile" model="unsikaabsen.matkul">
+      <field name="name">Pemrograman Aplikasi Mobile</field>
+      <field name="description">Pengantar tentang pengembangan aplikasi mobile untuk platform Android dan iOS.</field>
+</record>
+
+<record id="matkul_kecerdasan_buatan" model="unsikaabsen.matkul">
+      <field name="name">Kecerdasan Buatan</field>
+      <field name="description">Dasar-dasar kecerdasan buatan dan penerapannya dalam berbagai bidang.</field>
+</record>
+
+<record id="matkul_manajemen_proyek" model="unsikaabsen.matkul">
+      <field name="name">Manajemen Proyek TI</field>
+      <field name="description">Fundamental manajemen proyek dalam teknologi informasi termasuk perencanaan dan eksekusi.</field>
+</record>
+
+</odoo>

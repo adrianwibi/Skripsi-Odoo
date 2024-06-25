@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_unsikaabsen_attendance_mahasiswa,unsikaabsen.attendance,model_unsikaabsen_attendance,unsikaabsen.group_mahasiswa,1,0,0,0
+access_unsikaabsen_attendance_dosen,unsikaabsen.attendance,model_unsikaabsen_attendance,unsikaabsen.group_dosen,1,1,1,1
+access_unsikaabsen_matkul_mahasiswa,unsikaabsen.matkul,model_unsikaabsen_matkul,unsikaabsen.group_mahasiswa,1,0,0,0
+access_unsikaabsen_matkul_dosen,unsikaabsen.matkul,model_unsikaabsen_matkul,unsikaabsen.group_dosen,1,1,1,1
+access_mahasiswa,access_mahasiswa,model_res_users,unsikaabsen.group_mahasiswa,1,0,0,0
+access_dosen,access_dosen,model_res_users,unsikaabsen.group_dosen,1,1,1,1
+access_unsikaabsen_attendance_line_mahasiswa,unsikaabsen.attendance.line,model_unsikaabsen_attendance_line,unsikaabsen.group_mahasiswa,1,1,1,0
+access_unsikaabsen_attendance_line_dosen,unsikaabsen.attendance.line,model_unsikaabsen_attendance_line,unsikaabsen.group_dosen,1,1,1,1
