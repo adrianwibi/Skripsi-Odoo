@@ -81,14 +81,14 @@
                         <tree string="Absensi Mahasiswa" editable="bottom" create="false" delete="false">
                            <field name="user_id"/>
                            <field name="absen_date"/>
-                           <field name="state" widget="statusbar" statusbar_visible="terlalu_awal,hadir,terlambat,tidak_hadir"/>
+                           <field name="state" widget="statusbar" statusbar_visible="terlalu_awal,hadir,terlambat"/>
                        </tree>
                        <form string="Absensi Mahasiswa">
                            <sheet>
                                <group>
                                    <field name="user_id"/>
                                    <field name="absen_date"/>
-                                   <field name="state" widget="statusbar" statusbar_visible="terlalu_awal,hadir,terlambat,tidak_hadir"/>
+                                   <field name="state" widget="statusbar" statusbar_visible="terlalu_awal,hadir,terlambat"/>
                                </group>
                            </sheet>
                        </form>
