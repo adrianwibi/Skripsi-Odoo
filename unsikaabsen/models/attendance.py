@@ -14,7 +14,7 @@ class Attendance(models.Model):
     start_date = fields.Datetime(string='Tanggal', required=True, default=fields.Datetime.now)
     duration = fields.Integer(string='Durasi Kelas (Jam)')
     number_of_seats = fields.Integer(string='Kapasitas Kelas')
-    taken_seats = fields.Integer(string='Kursi Terisi', compute='_count_taken_seats')
+    taken_seats = fields.Integer(string='Kursi Terisi', compute='_count_taken_seats', store=True)
 
     matkul_id = fields.Many2one('unsikaabsen.matkul', string='Mata Kuliah', required=True)
     dosen_id = fields.Many2one('res.partner', string='Dosen')
